@@ -1,0 +1,16 @@
+package org.example;
+
+public class FindLargestOfTwoNumbers {
+
+    public static void main(String[] args) {
+    int x = 10;
+    int y = 20;
+    int largest = getLargestNumber(x,y);
+        System.out.println("The largest number is "+largest);
+
+}
+
+    public static int getLargestNumber(int x, int y) {
+        return Math.max(x, y);
+    }
+}
